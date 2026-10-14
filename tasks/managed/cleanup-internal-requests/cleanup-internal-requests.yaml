@@ -38,7 +38,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: cleanup-internal-requests
-      image: quay.io/konflux-ci/release-service-utils@sha256:8ac7a9b0bb623775eca570edef8a0fc34f693f50a7e0a50547a4e496875d68b9
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:9f21e3bf034e8ea284d7fc8a1145fa1eeb2e183651914f75c1a9e6370d35055a
       computeResources:
         limits:
           memory: 192Mi
